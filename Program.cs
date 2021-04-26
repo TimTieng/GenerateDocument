@@ -28,7 +28,7 @@ namespace GenerateDocumentName
             return frequency;
         }
         // Primary Function that meets problems endstate
-        public void GenerateDocumentName(string characters, string documentName)
+        public static void GenerateDocumentName(string characters, string documentName)
         {
             for (int i = 0; i < documentName.Length; i++)
             {
