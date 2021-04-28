@@ -10,6 +10,18 @@ namespace GenerateDocumentName
             string test1 = "Bste!hetsi ogEAxpelrt x ";
             string document1 = "AlgoExpert is the Best!";
             GenerateDocumentName(test1, document1);
+
+            // Test 2- Positive Output
+            string test2 = "a hsgalhsa sanbjksbdkjba kjx";
+            string document2 = "";
+            GenerateDocumentName(test2,document2);
+            
+            // Test 3 - Negative Output
+            string test3 = " ";
+            string document3 = "Hello";
+            GenerateDocumentName(test3, document3);
+
+            
         }
         // Helper Function to count the amount of times a character is present
         public static int FrequencyCounter (char character, string input)
